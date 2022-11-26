@@ -15,5 +15,5 @@ fetch('./files/简历-梁鹏宇-前端开发（remote）.xmind')
 
 
 viewer.addEventListener('map-ready', () => {
-  viewer.setZoomScale(100)
+  viewer.setZoomScale(80)
 })
