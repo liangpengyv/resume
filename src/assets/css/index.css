@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/loading-book.gif);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 40%;
+}
+
+iframe {
+  vertical-align: top
+}
