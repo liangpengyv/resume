@@ -1,5 +1,5 @@
 import './assets/css/index.css'
-import { XMindEmbedViewer } from "xmind-embed-viewer"
+import { XMindEmbedViewer } from './xmind-source'
 
 const viewer = new XMindEmbedViewer({
   el: '#app',
