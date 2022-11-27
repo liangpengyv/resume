@@ -2,13 +2,21 @@ body {
   margin: 0;
 }
 
-#app {
+#loading {
+  position: absolute;
   width: 100vw;
   height: 100vh;
   background-image: url(../img/loading-book.gif);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: 40%;
+  transition-property: opacity, visibility;
+  transition-duration: 1s;
+}
+
+#app {
+  width: 100vw;
+  height: 100vh;
 }
 
 iframe {

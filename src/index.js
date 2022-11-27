@@ -13,7 +13,9 @@ fetch('./files/简历-梁鹏宇-前端开发（remote）.xmind')
   .then(res => res.arrayBuffer())
   .then(file => viewer.load(file))
 
-
+const loadingEle = document.getElementById('loading')
 viewer.addEventListener('map-ready', () => {
+  loadingEle.style.opacity = '0'
+  loadingEle.style.visibility = 'hidden'
   viewer.setZoomScale(80)
 })
